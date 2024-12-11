@@ -4,7 +4,6 @@ function Footer() {
   return (
     <footer>
       <Navbar
-        className="bottom-nav"
         navitemsList={[
           "Women's",
           "Men's",
@@ -15,6 +14,7 @@ function Footer() {
           "Tips",
         ]}
       />
+      <p>&copy; 2013 Valet Industries, Inc</p>
     </footer>
   );
 }
